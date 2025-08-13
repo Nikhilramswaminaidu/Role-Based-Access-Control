@@ -50,30 +50,6 @@ Technology: Python 3.11+
 
 Project Structure
 
-finsolve_chatbot/
-├── backend/
-│   ├── app/
-│   │   ├── init.py
-│   │   ├── main.py             # FastAPI app definition, endpoints
-│   │   ├── auth.py             # User authentication and role management
-│   │   ├── rag_pipeline.py     # Core RAG logic
-│   │   └── data_loader.py      # Script for data ingestion
-│   └── .env                    # API keys and secrets
-│
-├── frontend/
-│   └── app.py                  # Streamlit UI for the chatbot
-│
-├── data/
-│   ├── finance/
-│   ├── marketing/
-│   ├── hr/
-│   ├── engineering/
-│   └── general/
-│
-├── chroma_db/                  # Persisted vector database
-│
-├── requirements.txt            # List of all Python dependencies
-└── README.md                   # Project documentation
 
 Getting Started
 
@@ -195,3 +171,4 @@ Streaming Responses: Implement response streaming to display the chatbot's answe
 Dockerize Application: Containerize the frontend and backend services for easier deployment and scalability.
 
 This project was developed as a solution to the FinTech internal chatbot challenge. For any questions, please feel free to reach out.
+
